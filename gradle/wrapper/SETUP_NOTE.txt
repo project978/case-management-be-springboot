@@ -1,0 +1,13 @@
+The gradle-wrapper.jar is a binary file that cannot be bundled here.
+
+To generate it, run ONE of the following after opening the project:
+
+Option A – if you have Gradle installed globally:
+    gradle wrapper --gradle-version=8.8 --distribution-type=bin
+
+Option B – IntelliJ IDEA:
+    File → Open → select the project folder
+    IntelliJ will detect build.gradle and auto-download the wrapper + dependencies.
+
+Option C – VS Code with "Spring Boot Extension Pack":
+    Open folder → accept the Gradle import prompt.
