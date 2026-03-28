@@ -4,16 +4,18 @@
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+gradle/wrapper/gradle-wrapper.properties
 
 # -------------------------
-# Eclipse / IntelliJ / VS Code
+# IDEs
 # -------------------------
 *.iml
 *.ipr
 *.iws
 .idea/
 .vscode/
-*.class
 
 # -------------------------
 # Spring Boot / Java
@@ -25,15 +27,14 @@ build/
 *.db
 *.sqlite
 hs_err_pid*
-.DS_Store
 
 # -------------------------
 # OS-specific
 # -------------------------
+.DS_Store
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-*.DS_Store
 
 # -------------------------
 # Secrets
