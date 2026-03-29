@@ -1,4 +1,4 @@
-app = "case-management-be-springboot"
+app = "case-management-be-978"
 primary_region = "iad"
 
 [build]
